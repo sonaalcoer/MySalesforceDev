@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_Inspection_with_DocuSign</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Send Inspection with DocuSign</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>{!URLFOR(&#39;/apex/dsfs__DocuSign_CreateEnvelope&#39;, null, [
+SourceID = Inspection_Form__c.Id,
+CCRM = &#39;Decision Maker~Signer 1&#39;,
+CCTM = &#39;Decision Maker~Signer&#39;,
+DST = Inspection_Form__c.TemplateId__c,
+LA = &#39;0&#39;,
+LF = &#39;0&#39;,
+OCO = &#39;Tag&#39;,
+CEM=&#39;Please sign &#39;
+]
+)}</url>
+</WebLink>

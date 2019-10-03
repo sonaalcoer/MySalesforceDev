@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TemplateId__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(Amount__c&gt;10000, &#39;1f3b631f-3f11-4c03-8fc1-6bd78087bb82&#39; , &#39;4a9d3196-83f4-4f8f-ba35-8e1c7ac71799&#39;)</formula>
+    <label>TemplateId</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

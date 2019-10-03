@@ -1,0 +1,13 @@
+<aura:component implements ="force:lightningQuickAction,force:hasRecordId">
+	<!--In order to customise header then use 'implements ="force:lightningQuickActionWithoutHeader"' -->
+       
+    <aura:attribute name="hasErrors" type="Boolean" description="Indicate whether there were failures or not" />
+    <aura:attribute name="caseStudy" type="String" />
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="errorFromCreate" type="String"/>
+    <!-- <aura:handler name="init" value="{!this}" action="{!c.init}" />  -->
+    <force:recordData aura:id="frd" mode="EDIT" layoutType="FULL"/>
+        <div>
+		Hello World!
+		</div>
+</aura:component>

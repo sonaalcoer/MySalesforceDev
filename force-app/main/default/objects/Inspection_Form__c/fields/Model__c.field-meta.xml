@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Model__c</fullName>
+    <externalId>false</externalId>
+    <label>Model</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Make__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Honeywell HN101</fullName>
+                <default>false</default>
+                <label>Honeywell HN101</label>
+            </value>
+            <value>
+                <fullName>Honeywell HN201</fullName>
+                <default>false</default>
+                <label>Honeywell HN201</label>
+            </value>
+            <value>
+                <fullName>Honeywell HN301</fullName>
+                <default>false</default>
+                <label>Honeywell HN301</label>
+            </value>
+            <value>
+                <fullName>Delta DT101</fullName>
+                <default>false</default>
+                <label>Delta DT101</label>
+            </value>
+            <value>
+                <fullName>Delta DT201</fullName>
+                <default>false</default>
+                <label>Delta DT201</label>
+            </value>
+            <value>
+                <fullName>Delta DT301</fullName>
+                <default>false</default>
+                <label>Delta DT301</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Honeywell</controllingFieldValue>
+            <valueName>Honeywell HN101</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Honeywell</controllingFieldValue>
+            <valueName>Honeywell HN201</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Honeywell</controllingFieldValue>
+            <valueName>Honeywell HN301</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delta</controllingFieldValue>
+            <valueName>Delta DT101</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delta</controllingFieldValue>
+            <valueName>Delta DT201</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delta</controllingFieldValue>
+            <valueName>Delta DT301</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

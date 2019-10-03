@@ -1,0 +1,4 @@
+<aura:component implements="Clients:availableForMailAppAppPage">
+    <aura:handler name="change" value="{!v.people}" action="{!c.handlePeopleChange}"/>
+        <aura:handler name="change" value="{!v.subject}" action="{!c.handleSubjectChange}"/>
+</aura:component>
